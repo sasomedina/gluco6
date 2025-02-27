@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Banner */
+.top-banner {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Product Image */
+.product-image {
+    width: 60%;
+    margin: 20px 0;
+}
+
+/* Certification Badges */
+.badges {
+    width: 80%;
+    margin: 20px 0;
+}
+
+/* Benefits List */
+.benefits {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.benefits li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Testimonial Section */
+.testimonial {
+    margin: 30px 0;
+    padding: 15px;
+    background: #eef9ff;
+    border-radius: 8px;
+}
+
+.testimonial-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Call-To-Action Button */
+.cta-button {
+    display: inline-block;
+    background-color: #ff4500;
+    color: white;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
